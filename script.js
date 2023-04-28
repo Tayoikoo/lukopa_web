@@ -34,3 +34,11 @@ function waktu(){
 
 setInterval(waktu, 1000);
 
+// Image
+function reloadImage() {
+  var image = document.getElementById("myProfile");
+  var imageUrl = image.src.split("?")[0]; // Get image URL without existing query parameters
+  image.src = imageUrl + "?t=" + new Date().getTime(); // Add cache-busting query parameter
+}
+
+setInterval(reloadImage, 1000);
