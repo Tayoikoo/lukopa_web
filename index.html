@@ -24,21 +24,19 @@
       align-items: center;
       min-height: calc(100vh - 250px);
     }
-    @media (max-width: 800px) {
+    @media (max-width: 900px) {
       main {
         min-height: calc(100vh - 350px);
       }
     }
     body {
-      transition: all 0.5s ease;
-    }
-    .bg-dark{
-      background-color: #333;
+      background-image: url('archives/bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100%;
+      width: 100%;
       color: white;
-    }
-    .bg-white{
-      background-color: #fff;
-      color: black;
     }
     .waktu{
       font-size:30px;
@@ -46,7 +44,7 @@
   </style>
 </head>
 
-<body class="bg-white">
+<body>
   <header class="container-fluid fixed">
     <div class="row">
       <div class="col-12 py-0.5 text-center">
@@ -54,14 +52,15 @@
       </div>
     </div>
   </header>
-
   <main class="container-fluid">
     <div class="row g-2">
+      <div style="background-color:#333; border-radius:5px;"> 
       <div class="col-md-12 py-6 text-center"><br>
-        <img style="max-width: 200px; max-height: 200px;" class="text-center rounded-circle shadow-4-strong img-thumbnail" src="https://avatars.githubusercontent.com/u/67594827?s=400&u=8dff20dc784f10abcff5a20c020d94f35cc9f929&v=4">
+        <img style="max-width: 200px; max-height: 200px;" class="text-center rounded-circle shadow-4-strong img-thumbnail" src="https://media.tenor.com/5DG0oY2N-jYAAAAC/pleading-crying.gif">       
         <h2 class="label">L</h2>
-        <p>"I'm a graduated student from vocational high school, someday i will learn something new"</p>
+        <p>"I am a graduated student from vocational high school, someday i will learn something new"</p>
         <p>Hobby: &#128187; & &#127918;</p>
+        <p style="font-size: 20px;">Lukopa Archives : WIP</p>
         <div class="waktu">
           <span>Time in indonesia: </span><p id="time"></p>
         </div>
@@ -69,16 +68,16 @@
         <a href="https://github.com/Tayoikoo"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-github"></span></button></a>
         <a href="https://discord.com/users/601380262571409425"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-discord"></span></button></a>
         </div>
-        <p class="label"><button id="btn-toggle" class="text-break btn btn-white"></button></p>
-        <p class="label">Want to be rich? <a href="https://www.youtube.com/watch?v=fVA0ofXt21Y">Click Here!</a></p>
-        <a href="https://discord.com/users/601380262571409425"><img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=Currently not doing anything..&bg=#333" style="max-width:350px; max-height:350px;"></a>
+        <a href="https://discord.com/users/601380262571409425"><img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=Currently not doing anything..&bg=#333" style="max-width:350px; max-height:300px;"></a>
+        <br> 
+      </div>
     </div>
   </main>
 <br>
   <footer class="fixed footer-fluid">
     <div class="row">
       <div class="col-12 py-1 text-center">
-        &copy; Tayoikoo - <span id="">2023</span>
+        <span>&copy; Tayoikoo - 2023</span>
       </div>
     </div>
   </footer>
