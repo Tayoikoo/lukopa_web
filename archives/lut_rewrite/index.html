@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Admin - Skill issue</title>
+	<title>LSP 2023 - Skill issue</title>
 	<style type="text/css">
 		body{
 			margin: 5px 80px 5px 80px;
@@ -38,28 +38,33 @@
 			height: 75px;
 			clear: both;	
 		}
-		table, a{
-			font-size: 50px;
-			text-decoration: none;
-		}
 	</style>
 </head>
 <body>
 	<div class="header"></div>
 	<div class="konten">
 	<div class="kiri">
-		Selamat Datang, <?php echo "Lut";?>!<br><br><br>
-	<table style="text-align: center;" name="tabel" border="0">
-		<td>
-			<tr><a href="_assets/siswa/tambahdata.php" target="kanan">Tambah Data</a></tr><br>
-			<tr><a href="_assets/siswa/lihatdata.php" target="kanan">Lihat Data</a></tr><br>
-			<tr><a href="logout.php">Logout</a></tr>
-		</td>
-	</table>
+		<form action="admin.html" method="">
+			<table width="100%" border="0">
+				<tr>
+					<td>Login</td>
+				</tr>
+				<tr>
+					<td>Username :</td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td>Password :</td>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td><input type="submit" name="login" value="LOGIN !"></td>
+				</tr>								
+			</table>
+		</form>
 	</div>
-	<div class="kanan">
-		<iframe name="kanan" width="100%" height="380"></iframe>
-	</div>
+	<div class="kanan"></div>
 	</div>
 	<div class="footer"></div>
 </body>

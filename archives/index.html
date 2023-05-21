@@ -35,21 +35,15 @@
                     <div class="col-md-12 py-6 text-center">
                         <p>Selamat Datang di arsip lukopa</p>
                         <p>website ini menyimpan arsip saya saat di Jurusan Rekayasa Perangkat Lunak</p>
-                        <p>masih ada beberapa yang harus diimprove kedepannya :)</p>
                         <p>Arsip: </p>
                         <div class="col-md-12 py-6">
-                        <?php
-                        $test = array("tryhtml","Pra-LSP","smktest");
-                        $link = array("<a class='link_rel' href='HTML test.html'>click here</a>","<a class='link_rel' href='lut_rewrite/index.php'>click here</a>","<a class='link_rel' href='smktest/index.php'>click here</a>");
-                        $result = array_combine($test, $link);
-                        
-                        foreach($result as $list => $value) {
-                            echo $list . " : " . $value . "<br>";
-                        }
-                        ?>
+                        TryHTML: <a class='link_rel' href='HTML test.html'>click here</a><br>
+                        PRA-LSP: <a class='link_rel' href='lut_rewrite/index.html'>click here</a><br>
+                        smktest: <a class='link_rel' href='smktest/index.html'>click here</a><br>
                         <br>
-                        <a href="../index.php" class="link_rel">kembali</a>
-                        <br>
+                        <a href="../index.html" class="link_rel">kembali</a>
+                        <br><br>
+                        <p>Problem: website ini dihost via github jadi ga support full PHP</p>
                         </div>
                     </div>
                 </div>
