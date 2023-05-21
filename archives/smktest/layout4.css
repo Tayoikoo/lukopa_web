@@ -1,0 +1,48 @@
+div.Header{
+	border-width: 1px;
+	border-style: solid;
+	width: 800px;
+	height: 100px;
+	background-color: aquamarine;
+	margin: auto;
+}
+div.Menu{
+	border-width: 1px;
+	border-style: solid;
+	width: 800px;
+	height: 50px;
+	background-color: darkorange;
+	margin: auto;
+}
+div.content{
+	border-width: 1px;
+	border-style: solid;
+	width: 800px;
+	height:400px;
+	margin: auto;
+	background-color: green;
+}
+div.Kiri_atas{
+	border-width: 1px;
+	border-style: solid;
+	width: 200px;
+	height: 200px;
+	margin: left;
+	background-color: midnightblue;
+}
+div.Kiri_bawah{
+	border-width: 1px;
+	border-style: solid;
+	width: 200px;
+	height: 200px;
+	margin: left;
+	background-color: lemonchiffon;
+}
+div.footer{
+	border-width: 1px;
+	border-style: solid;
+	width: 800px;
+	height: 50px;
+	background-color: deeppink;
+	margin: auto;
+}

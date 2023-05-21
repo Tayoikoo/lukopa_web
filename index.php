@@ -60,15 +60,16 @@
         <h2 class="label">L</h2>
         <p>"I am a graduated student from vocational high school, someday i will learn something new"</p>
         <p>Hobby: &#128187; & &#127918;</p>
-        <p style="font-size: 20px;">Lukopa Archives : WIP</p>
+        <p style="font-size: 20px;">Arsip Lut : <a href="archives/index.php" style="text-decoration: none;">Click here</a></p>
         <div class="waktu">
           <span>Time in indonesia: </span><p id="time"></p>
         </div>
         <div class="label">
-        <a href="https://github.com/Tayoikoo"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-github"></span></button></a>
-        <a href="https://discord.com/users/601380262571409425"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-discord"></span></button></a>
+        <a href="https://github.com/Tayoikoo" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-github"></span></button></a>
+        <a href="https://www.youtube.com/channel/UCaw-Q800NrqWizwTSJZJ2BA" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-youtube"></span></button></a>
+        <a href="https://discord.com/users/601380262571409425" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-discord"></span></button></a>
         </div>
-        <a href="https://discord.com/users/601380262571409425"><img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=Currently not doing anything..&bg=#333" style="max-width:350px; max-height:300px;"></a>
+        <a href="https://discord.com/users/601380262571409425"><img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=An Unexpected Event might happend..&bg=#333" style="max-width:350px; max-height:300px;"></a>
         <br> 
       </div>
     </div>

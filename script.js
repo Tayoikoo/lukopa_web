@@ -13,7 +13,7 @@ setInterval(waktu, 1000);
 function reloadImage() {
   var image = document.getElementById("myProfile");
   var imageUrl = image.src.split("?")[0]; // Get image URL without existing query parameters
-  image.src = imageUrl + "?idleMessage=Currently not doing anything..&t=" + new Date().getTime(); // Add cache-busting query parameter
+  image.src = imageUrl + "?idleMessage=An Unexpected Event might happend..&t=" + new Date().getTime(); // Add cache-busting query parameter
 }
 
 setInterval(reloadImage, 1000);

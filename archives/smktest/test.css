@@ -1,0 +1,49 @@
+div.Header{
+	width: 800px;
+	height: 150px;
+	background-color: aquamarine;
+	margin: auto;
+}
+div.Menu{
+	width: 800px;
+	height: 25px;
+	background-color: darkorange;
+	margin: auto;
+	text-align: center;
+}
+div.konten{
+	width: 800px;
+	height:400px;
+	margin: auto;
+	background-color: darkorange;
+}
+div.kiri{
+	width: 200px;
+	height:400px;
+	float: left;
+	background-color: darkslategray;
+}
+div.Kiri_atas{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: darkred;
+	color: white;
+}
+div.Kiri_bawah{
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-color: lemonchiffon;
+}
+div.kanan{
+	width: 600px;
+	height: 400px;
+	float: right;
+	background-color: blanchedalmond;
+}
+div.footer{
+	width: 800px;
+	height: 25px;
+	margin: auto;
+}
