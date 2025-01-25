@@ -1,90 +1,87 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Hello World!</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="https://www.freeiconspng.com/uploads/letter-l-icon-png-28.png">
+  <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
-  <style>
-    .label:after{
-      content: '\A';
-      white-space:pre;
-      line-height: 50px;
-    }
-    /* Custom styles for the main element */
-    main {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: calc(100vh - 250px);
-    }
-    @media (max-width: 900px) {
-      main {
-        min-height: calc(100vh - 350px);
-      }
-    }
-    body {
-      background-image: url('archives/bg.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      height: 100%;
-      width: 100%;
-      color: white;
-    }
-    .waktu{
-      font-size:30px;
-    }
-  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>  
+  <title>Homepage - Lukopa</title>
 </head>
-
-<body>
-  <header class="container-fluid fixed">
-    <div class="row">
-      <div class="col-12 py-0.5 text-center">
-          <span class="display-6">Profile</span>
-      </div>
-    </div>
-  </header>
-  <main class="container-fluid">
-    <div class="row g-2">
-      <div style="background-color:#333; border-radius:5px;"> 
-      <div class="col-md-12 py-6 text-center"><br>
-        <img style="max-width: 200px; max-height: 200px;" class="text-center rounded-circle shadow-4-strong img-thumbnail" src="https://media.tenor.com/5DG0oY2N-jYAAAAC/pleading-crying.gif">       
-        <h2 class="label">L</h2>
-        <p>"I am a graduated student from vocational high school, someday i will learn something new"</p>
-        <p>Hobby: &#128187; & &#127918;</p>
-        <p style="font-size: 20px;">Arsip Lut : <a href="archives/index.html" style="text-decoration: none;">Click here</a></p>
-        <div class="waktu">
-          <span>Today is :</span><p id="day"></p>
-          <span id="bd" style="color:aqua;" ></span><p></p>
-          <span>Time in indonesia: </span><p id="time"></p>
+<body class="d-flex flex-column min-vh-100" style="background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2p0dGU5aXliaWE3ZTNiZm53bWR4YWtoMHF3am5tMXNkYXdvang0NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FlodpfQUBSp20/giphy.gif);">
+  <div class="container mt-4">
+    <div class="row gy-3">
+      <!-- Profile -->
+      <div class="col-lg-4 col-md-6">
+        <div class="p-3 text-white" style="background: linear-gradient(180deg, #1b028a, #0055b6); border-radius: 8px; opacity: 0.9;">
+          <div class="text-center">
+            <p class="fs-5">My Profile</p>
+            <img src="https://cdn.discordapp.com/avatars/601380262571409425/f7c20deb6e4769bf982ba1b2db2accda?size=160" class="rounded-circle shadow-4-strong img-thumbnail w-50 h-50" alt="Profile Image">
+          </div>
+          <div class="mt-3">
+            <p class="fs-5 text-center">Lukopa</p>
+            <div class="label text-center mb-4">
+              <a href="https://github.com/Tayoikoo" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-github"></span></button></a>
+              <a href="https://www.youtube.com/channel/UCaw-Q800NrqWizwTSJZJ2BA" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-youtube"></span></button></a>
+              <a href="https://discord.com/users/601380262571409425" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-discord"></span></button></a>
+            </div>            
+            <div class="waktu text-center">
+              <span>Today is :</span><p id="day"></p>
+              <span style="color:aqua;" ></span><p id="bd"></p>
+              <span>Time in indonesia: </span><p id="time"></p>
+            </div>            
+            <blockquote class="blockquote text-center">
+              <p>"All in once, Keep going!"</p>
+            </blockquote>
+            <p class="fs-6 text-center">
+              Graduated Student<br>Familiar with Programming Languages:
+              <div class="text-center">
+                <button type="button" class="btn bg-transparent border-0 fs-1 rounded-circle">
+                  <i class="devicon-rust-plain colored"></i>
+                </button>
+                <button type="button" class="btn bg-transparent border-0 fs-1 rounded-circle">
+                  <i class="devicon-php-plain colored"></i>
+                </button>
+                <button type="button" class="btn bg-transparent border-0 fs-1 rounded-circle">
+                  <i class="devicon-java-plain colored"></i>
+                </button>
+                <button type="button" class="btn bg-transparent border-0 fs-1 rounded-circle">
+                  <i class="devicon-html5-plain colored"></i>
+                </button>
+                <button type="button" class="btn bg-transparent border-0 fs-1 rounded-circle">
+                  <i class="devicon-javascript-plain colored"></i>
+                </button>                
+              </div>               
+            </p>
+            <p class="fs-6 text-center">Reverse Engineering is so peak</p>
+            <div class="text-center">
+              <a href="https://discord.com/users/601380262571409425">
+                <img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=An Unexpected Event might happend..&bg=#333" class="img-fluid" alt="Discord Profile">
+              </a>
+            </div>
+          </div>
         </div>
-        <div class="label">
-        <a href="https://github.com/Tayoikoo" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-github"></span></button></a>
-        <a href="https://www.youtube.com/channel/UCaw-Q800NrqWizwTSJZJ2BA" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-youtube"></span></button></a>
-        <a href="https://discord.com/users/601380262571409425" target="_blank"><button type="button" class="btn btn-dark rounded-circle"><span class="bi bi-discord"></span></button></a>
+      </div>
+      <!-- Right Column -->
+      <div class="col-lg-8 col-md-6 mb-4">
+        <div class="p-3 text-center rounded-3 mb-4" style="background: linear-gradient(270deg, #1b028a, #0055b6); opacity: 0.9;">
+          <h1 class="text-center text-white mb-4">Whem im bored</h1>
+          <div id="repo-container" class="row g-4"></div>  
+        </div>        
+        <div class="p-3 text-center rounded-3" style="background: linear-gradient(270deg, #1b028a, #0055b6); opacity: 0.9;">
+          <div class="mb-3">
+            <img class="img-fluid" src="https://github-readme-stats.vercel.app/api?username=Tayoikoo&theme=vue-dark&show_icons=true&hide_border=false&count_private=true" alt="GitHub Stats">
+          </div>
+          <div>
+            <img class="img-fluid" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Tayoikoo&theme=vue-dark&show_icons=true&hide_border=false&layout=compact" alt="Top Languages">
+          </div>
         </div>
-        <a href="https://discord.com/users/601380262571409425"><img id="myProfile" src="https://lanyard.cnrad.dev/api/601380262571409425?idleMessage=An Unexpected Event might happend..&bg=#333" style="max-width:350px; max-height:300px;"></a>
-        <br> 
       </div>
     </div>
-  </main>
-<br>
-  <footer class="fixed footer-fluid">
-    <div class="row">
-      <div class="col-12 py-1 text-center">
-        <span>&copy; Tayoikoo - 2023</span>
-      </div>
-    </div>
-  </footer>
-
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
